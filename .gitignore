@@ -1,32 +1,126 @@
-# Prerequisites
-*.d
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Compiled Object files
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux specific
+*~
+.nfs*
+
+# Visual Studio specific
+.vscode/
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.vcxproj*
+*.vc.db
+*.pdb
+*.opendb
+*.obj
+*.log
+*.idb
+*.tlog
+*.ipch
+*.iobj
+*.pch
+*.exe
+*.dll
+*.lib
+*.app
+*.out
+*.ilk
+*.csv
+*.mp4
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+
+# Visual Studio Code specific
+.vscode/
+*.code-workspace
+
+# Raylib specific
+*.exe
+*.log
+*.out
+*.a
+*.o
+*.dSYM/
+*.bin
+
+# CLion specific
+cmake-build-debug/
+cmake-build-release/
+.idea/
+.vscode/
+*.iml
+
+# CMake specific
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Build directories
+/build/
+Debug/
+Release/
+
+# Ignore compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore compiled object files
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+# Ignore compiled libraries
 *.a
+*.la
 *.lib
 
-# Executables
+# Ignore executable files
 *.exe
 *.out
 *.app
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
